@@ -1,6 +1,7 @@
 import React from "react"
 import Navbar from "./Components/Navbar"
 import Footer from "./Components/Footer"
+import NewsLayout from "./Components/News_Layout"
 
 class App extends React.Component {
   render () {
@@ -8,9 +9,9 @@ class App extends React.Component {
       <div>
         <Navbar></Navbar>
 
-        <h1>
-          Hello World
-        </h1>
+        
+
+        <NewsLayout></NewsLayout>
 
         <Footer></Footer>
       </div>

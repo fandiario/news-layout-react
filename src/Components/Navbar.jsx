@@ -6,7 +6,7 @@ class Navbar extends React.Component {
     render () {
         return (
             <div>
-                <nav className="nav bg-danger text-light">
+                <nav className="nav bg-dark text-light">
                     <div className="container d-flex justify-content-between">
                         <div className="d-flex align-content-center">
                             <img src={menu} alt=""/>
@@ -17,7 +17,7 @@ class Navbar extends React.Component {
                         </div>
 
                         <div className="d-flex align-items-center">
-                            <input type="text" placeholder="Search" style={{height:"30px"}}/>
+                            <input type="text" placeholder="Search" style={{height:"30px"}} className="mr-3"/>
                             <img src={search} alt=""/>
                         </div>
 
