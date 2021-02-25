@@ -65,7 +65,7 @@ class NewsLayout extends React.Component {
 
                     <hr/>
 
-                    <div className="col-12 d-flex flex-row flex-wrap">
+                    <div className="col-12 d-flex flex-row flex-wrap justify-content-center">
                         {
                             this.state.data.map ((el, i) => {
                                 return (
