@@ -1,6 +1,7 @@
 import React from "react"
 import Navbar from "./Components/Navbar"
 import Footer from "./Components/Footer"
+import NewsCarousel from "./Components/News_Carousel"
 import NewsLayout from "./Components/News_Layout"
 
 class App extends React.Component {
@@ -9,7 +10,7 @@ class App extends React.Component {
       <div>
         <Navbar></Navbar>
 
-        
+        <NewsCarousel></NewsCarousel>        
 
         <NewsLayout></NewsLayout>
 
